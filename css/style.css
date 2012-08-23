@@ -215,11 +215,30 @@ td { vertical-align: top; }
 
 
 /* ==|== primary styles =====================================================
-   Author:
+   Author: Thomas Levine
    ========================================================================== */
 
+html, body, pre {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
+html, pre, code {
+  font-family: Inconsolata, monospace;
+}
 
+html, body,
+header, footer {
+  margin: 0;
+  background-color: #FDF6E3;
+  color: #002B36;
+}
+
+header {
+  text-align: center;
+}
 
 
 
