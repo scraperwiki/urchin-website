@@ -50,9 +50,9 @@ body { margin: 0; font-size: 1em; line-height: 1.4; }
    Links
    ========================================================================== */
 
-a { color: #00e; }
-a:visited { color: #551a8b; }
-a:hover { color: #06e; }
+a { color: #B58900; text-decoration: underline; }
+a:visited { color: #B58900; text-decoration: underline; }
+a:hover { color: #B58900; text-decoration: none; }
 a:focus { outline: thin dotted; }
 
 /* Improve readability when focused and hovered in all browsers: h5bp.com/h */
@@ -238,6 +238,12 @@ header, footer {
 
 header {
   text-align: center;
+}
+
+#main {
+  width: 640px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
